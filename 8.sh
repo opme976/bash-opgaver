@@ -18,3 +18,4 @@ echo "Skriv dit efternavn"
 read efternavn
 #skriver dit fornavn og efternavn 
 echo "dit fornavn er: $fornavn og dit efternavn er: $efternavn"
+
