@@ -5,10 +5,16 @@
 #Beskrivelse: Tæller
 
 
-TAELLER=4 #start tallet
+TAELLER=10 #start tallet
 
-((TAELLER++)) #lægges der en til
-echo ”$TAELLER”
+#((TAELLER++)) #lægges der en til
+#echo ”$TAELLER”
 
-((TAELLER--)) #trækkes der en fra
-echo ”$TAELLER”
+#((TAELLER--)) #trækkes der en fra
+#echo ”$TAELLER”
+
+
+for (( TAELLER=10; TAELLER<=6; TAELLER++ ))
+do
+   echo "$TAELLER"
+done
