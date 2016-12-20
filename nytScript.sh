@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 echo "skriv dit navn"
 read navn
 echo "skriv dit opgavenummer"
@@ -22,5 +24,6 @@ fi
 mv temp881 $opgavenummer.sh
 
 if [ $vildu = "J" ]; then
-	nano $opgavenummer.sh;
+	atom $opgavenummer.sh;
 fi
+

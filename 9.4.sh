@@ -4,18 +4,19 @@
 #Opgave: 9.4
 #Beskrivelse: array med personoplysninger
 
-#skriv dit navn
-echo -e "indtast dit navn"
-read -a NAME
-#skriv din tlf nummer
-echo -e "indtast dit tlf nummer"
-read -a TLF
-#skriv din adresse
-echo -e "indtast din adresse"
-read -a ADRESSE
+#Navne array
+NAME=( 'Hans' 'Jens' 'Niels' )
 
-personoplysninger=("${NAME[@]}" "${tlf[@]}" "${ADRESSE[@]}")
+#Adresse array
+ADRESSE=( 'Gade1' 'Gade2' 'Gade3' )
 
-for ((i=0;i<$personoplysninger;i++)); do
-	echo ${ARRAY[${i}]}
+#Telefon array
+TLF=( 'tlf1' 'tlf2' 'tlf3' )
+
+personoplysninger=${#NAME[@]} ${#ADRESSE[@]} ${#TLF[@]}
+
+#echo $personoplysninger
+
+for (( i=0;i<$personoplysninger;i++ )); do
+	echo ${NAME[${i}]} #${ADRESSE[${i}]} ${TLF[${i}]}
 done
