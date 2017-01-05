@@ -5,11 +5,11 @@
 #Beskrivelse: afprøv variabler
 
 
-VAR_1=$1
+VAR_1="hello"
 
 shift
 
-VAR_2=$1
+VAR_2="world"
 
 echo "Postionel variabel 1: $VAR_1"
 
