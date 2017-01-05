@@ -5,7 +5,7 @@
 #Beskrivelse: case med bogstaver
 
 
-echo 'Vælg hvad der er dit foretrukne programmering / scripting sprog.'
+echo 'Vælg et bogstav.'
 
 echo 'a'
 

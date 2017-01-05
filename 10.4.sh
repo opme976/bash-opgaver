@@ -16,5 +16,5 @@ TAELLER=10 #start tallet
 
 for (( TAELLER=10; TAELLER<=6; TAELLER++ ))
 do
-   echo "$TAELLER"
+   echo "$TAELLER"; 
 done

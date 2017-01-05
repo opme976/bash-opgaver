@@ -17,6 +17,6 @@ personoplysninger=${#NAME[@]} ${#ADRESSE[@]} ${#TLF[@]}
 
 #echo $personoplysninger
 
-for (( i=0;i<$personoplysninger;i++ )); do
+for (( i=0;i=$personoplysninger;i++ )); do
 	echo ${NAME[${i}]} #${ADRESSE[${i}]} ${TLF[${i}]}
 done

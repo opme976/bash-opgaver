@@ -19,4 +19,4 @@ if [ $T1 > $T2 ]
 if [ $T2 > $T1 ]
         echo "$T2 er større end $T1";
 fi
-
+fi
